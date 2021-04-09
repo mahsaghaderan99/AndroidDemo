@@ -85,20 +85,6 @@
                 />
         </androidx.cardview.widget.CardView>
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="30dp"
-            android:text="++"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_background"
-            android:textSize="20dp"
-            app:backgroundTint="@color/red"
-            app:layout_constraintEnd_toStartOf="@+id/company_name"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -108,7 +94,20 @@
             app:layout_constraintStart_toEndOf="@+id/company_name"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toStartOf="@+id/company_name"
+            app:layout_constraintHorizontal_bias="0.551"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_backward_arrow"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/red"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -122,15 +121,14 @@
         android:layout_marginTop="-100dp"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout">
 
-        <Button
+        <ImageButton
             android:id="@+id/button3"
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/button_background"
-            android:text="+"
-            android:textSize="20dp"
+            android:src="@drawable/ic_remove"
             app:backgroundTint="@color/red" />
 
         <TextView
@@ -147,14 +145,14 @@
             android:textFontWeight="200"
             android:textSize="25dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button4"
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@drawable/button_background"
-            android:text="B"
+            android:src="@drawable/ic_add"
             android:textSize="20dp"
             app:backgroundTint="@color/red" />
     </LinearLayout>
@@ -227,9 +225,9 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="6dp"
         android:fontFamily="@font/averia_gruesa_libre"
-        android:text="blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah "
-        android:textColor="#8D8C9C"
-        android:textSize="20sp"
+        android:text="blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah "
+        android:textColor="#A5A4B3"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -241,6 +239,7 @@
         android:background="@drawable/button_background"
         android:fontFamily="@font/averia_gruesa_libre"
         android:text="Add to Cart"
+        android:textFontWeight="1000"
         app:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
