@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomBarHeight">48dp</dimen>
+    <dimen name="bottomBarMarginBottom">10dp</dimen>
+    <dimen name="cartButtonMargin">50dp</dimen>
+    <dimen name="buttonTextSize">16sp</dimen>
+    <dimen name="screenMargin">15dp</dimen>
+    <dimen name="productIconMargin">30dp</dimen>
+</resources>
