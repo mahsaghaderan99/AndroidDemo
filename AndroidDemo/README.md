@@ -19,7 +19,7 @@ Using Kotlin and Android version 10
 - CardView
 - TextView
 
-#أ# Notes
+## Notes
 
 - All resources are extracted as variables
 - All responsive behaviours are handled by constraintLayout
