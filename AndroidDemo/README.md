@@ -19,4 +19,10 @@ Using Kotlin and Android version 10
 - CardView
 - TextView
 
+#أNotes
+
+- All resources are extracted as variables
+- All responsive behaviours are handled by constraintLayout
+- To avoid verical collapses for smaller screens, scrollView is used
+
 
